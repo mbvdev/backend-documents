@@ -1,15 +1,3 @@
-Below is a **clean, polished, interview-ready, README.md** version with:
-
-✅ One-line definitions
-✅ Short explanation
-✅ Use cases
-✅ Diagram
-✅ Perfect formatting for future interviews
-
-You can copy–paste this directly into your repository.
-
----
-
 # 🚀 **NestJS Request Lifecycle — Clean & Complete Guide**
 
 This document explains the **official, correct request lifecycle in NestJS** with simple definitions and real-world use cases.
@@ -183,5 +171,3 @@ This document explains the **official, correct request lifecycle in NestJS** wit
 
 > **NestJS request lifecycle:** Middleware → Guards → Interceptors (before) → Pipes → Controller → Service → Interceptors (after) → Response.
 > Middleware handles preprocessing, Guards handle authorization, Interceptors wrap controller logic, Pipes validate input, Controllers receive requests, Services run business logic, and Interceptors finalize the response.
-
----
